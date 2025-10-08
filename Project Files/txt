@@ -1,0 +1,8 @@
+Flask
+requests
+pytesseract
+opencv-python
+Pillow
+numpy
+matplot
+seaborn

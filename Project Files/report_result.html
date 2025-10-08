@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Report Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h2>🧾 Extracted Report Text</h2>
+    <pre>{{ extracted_text }}</pre>
+    <h2>🧠 AI Response</h2>
+    <p>{{ response }}</p>
+    <a href="/upload">Upload Another</a> | <a href="/">Home</a>
+</body>
+</html>
